@@ -22,6 +22,8 @@ Symlink the site configuration to the `/etc/nginx/sites-enabled` directory
 
 ```bash
 sudo ln -s /etc/nginx/sites-available/kitty-directory /etc/nginx/sites-enabled/
+sudo nginx -t
+sudo systemctl restart nginx
 ```
 
 ### Systemctl
