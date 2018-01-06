@@ -4,13 +4,13 @@ Dashboard to display current kittens living in my household.
 
 ## Setup
 
-### Pull Repo
+### Clone Repo
 
 Pull the repo to the location defined in the `kitty-directory.sh` file. In my case it's a folder called Production in my home directory.
 
 ```bash
 cd ~/Production
-git pull git@github.com:t04glovern/kitty-directory.git
+git clone git@github.com:t04glovern/kitty-directory.git
 cd kitty-directory
 ```
 
