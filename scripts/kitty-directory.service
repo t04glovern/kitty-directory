@@ -7,7 +7,7 @@ User=nathan
 Group=www-data
 WorkingDirectory=/home/nathan/Production/kitty-directory
 Environment="PATH=/home/nathan/.virtualenvs/flask-python3.6.3-dev/bin"
-ExecStart=/home/nathan/.virtualenvs/flask-python3.6.3-dev/bin/gunicorn --workers 3 --bind unix:nathanglover.sock -m 007 wsgi:app
+ExecStart=/home/nathan/.virtualenvs/flask-python3.6.3-dev/bin/gunicorn --workers 3 --bind unix:kitty-directory.sock -m 007 wsgi:app
 
 [Install]
 WantedBy=multi-user.target
