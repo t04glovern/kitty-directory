@@ -1,0 +1,6 @@
+.idea/
+*.psd
+.DS_Store
+*.pyc
+*~
+*.swp

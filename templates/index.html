@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='assets/img/favicon.ico') }}">
+
+    <title>Kitty Creche</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+          integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename='assets/css/main.css') }}" rel="stylesheet">
+
+    <!-- Fonts from Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#"><b>Kitty Creche</b></a>
+        </div>
+    </div>
+</div>
+
+<div id="headerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1>Hi There 😻<br/> You're kinda Pawsome!</h1>
+            </div><!-- /col-lg-6 -->
+            <div class="col-lg-6">
+                <img class="img-responsive" src="{{ url_for('static', filename='assets/img/cat-landing-page.png') }}"
+                     alt="">
+            </div><!-- /col-lg-6 -->
+
+        </div><!-- /row -->
+    </div><!-- /container -->
+</div><!-- /headerwrap -->
+
+
+<div class="container">
+    <div class="row mt centered">
+        <div class="col-lg-12">
+            <h1>Fluffy Guests!</h1>
+            <h3>We're all currently looking for happy homes!</h3>
+        </div>
+    </div><!-- /row -->
+
+    <div class="card-columns">
+        <div class="card">
+            <img class="card-img-top" src="{{ url_for('static', filename='assets/img/potato_cat01.png') }}"
+                 alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text.</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div><!--/col-ld-4 -->
+
+        <div class="card">
+            <img class="card-img-top" src="{{ url_for('static', filename='assets/img/potato_cat02.png') }}"
+                 alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text.</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div><!--/col-ld-4 -->
+
+        <div class="card">
+            <img class="card-img-top" src="{{ url_for('static', filename='assets/img/potato_cat03.png') }}"
+                 alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text.</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div><!--/col-ld-4 -->
+
+        <div class="card">
+            <img class="card-img-top" src="{{ url_for('static', filename='assets/img/potato_cat04.png') }}"
+                 alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text.</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div><!--/col-ld-4 -->
+
+        <div class="card">
+            <img class="card-img-top" src="{{ url_for('static', filename='assets/img/potato_cat05.png') }}"
+                 alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text.</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div><!--/col-ld-4 -->
+
+        <div class="card">
+            <img class="card-img-top" src="{{ url_for('static', filename='assets/img/potato_cat06.png') }}"
+                 alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text.</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+        </div><!--/col-ld-4 -->
+    </div><!-- /row -->
+
+</div><!-- /container -->
+
+<div class="container">
+    <hr>
+</div><!-- /container -->
+
+<div class="container">
+    <div class="row mt centered">
+        <div class="col-lg-12">
+            <h1>Want to get Involved?</h1>
+            <h3>Here's some way you can!</h3>
+        </div>
+    </div><!-- /row -->
+
+
+    <div class="row mt centered">
+        <div class="col-lg-4">
+            <img class="img-circle" src="{{ url_for('static', filename='assets/img/option-01.png') }}" width="140"
+                 alt="">
+            <h4>Adoption</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever.</p>
+            <p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i
+                    class="glyphicon glyphicon-globe"></i></p>
+        </div><!--/col-lg-4 -->
+
+        <div class="col-lg-4">
+            <img class="img-circle" src="{{ url_for('static', filename='assets/img/option-02.png') }}" width="140"
+                 alt="">
+            <h4>Fostering</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever.</p>
+            <p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i
+                    class="glyphicon glyphicon-globe"></i></p>
+        </div><!--/col-lg-4 -->
+
+        <div class="col-lg-4">
+            <img class="img-circle" src="{{ url_for('static', filename='assets/img/option-03.png') }}" width="140"
+                 alt="">
+            <h4>Donations</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever.</p>
+            <p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i
+                    class="glyphicon glyphicon-globe"></i></p>
+        </div><!--/col-lg-4 -->
+    </div><!-- /row -->
+</div><!-- /container -->
+
+<div class="container">
+    <hr>
+    <div class="row centered">
+        <div class="col-md-6">
+            <p>What to stay informed? Subscribe to our newsletter!</p>
+        </div>
+        <div class="col-md-6">
+            <form class="form-inline" role="form">
+                <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1"
+                           placeholder="Enter your email!">
+                </div>
+                <button type="submit" class="btn btn-warning">Invite Me!</button>
+            </form>
+        </div>
+    </div><!-- /row -->
+    <hr>
+    <p class="centered">Created by Nathan Glover - Attribution License 3.0 - 2018</p>
+</div><!-- /container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
+        integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+        crossorigin="anonymous"></script>
+</body>
+</html>
