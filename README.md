@@ -40,7 +40,21 @@ sudo systemctl start kitty-directory.service
 
 ### Let's Encrypt
 
-TODO
+Install Certbot
+
+```bash
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
+sudo apt-get install python-certbot-nginx
+```
+
+Generate a certificate for the sites domains
+
+```bash
+sudo certbot --nginx -d kitty.directory -d www.kitty.directory
+```
+
+Choose if you want to auto redirect for HTTPS (I do this because HTTPS is important).
 
 ## Updating / Running
 
