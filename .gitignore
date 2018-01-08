@@ -1,6 +1,11 @@
-.idea/
-*.psd
 .DS_Store
 *.pyc
 *~
 *.swp
+
+## Pycharm
+.idea/
+.virtualenvs
+
+## Misc
+*.psd
